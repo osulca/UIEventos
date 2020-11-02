@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void hazAlgo(View view) {
         Toast.makeText(this, "metodo 3", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, MainActivity2.class);
+        intent.putExtra("Nombre", "Omar");
+        intent.putExtra("Apellidos", "Sulca");
         startActivity(intent);
     }
 

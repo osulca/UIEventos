@@ -59,8 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="136dp"
         android:layout_marginTop="92dp"
-        android:text="Enviar Email"
         android:onClick="enviarEmail"
+        android:text="Enviar Email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnMetodo2" />
 
